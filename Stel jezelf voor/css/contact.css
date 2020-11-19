@@ -1,0 +1,73 @@
+
+body{
+    
+    background-color: darkgray;
+}
+h1{
+    background-color: black;
+    color: white;
+    font-style: oblique;
+    font-size: 50px;
+    margin-right: 500px;
+    margin-left: 500px;
+    
+}
+img{
+    
+    margin-left: 500px;
+    margin-top: 0px;
+    
+    
+}
+ul{
+    color: black;
+    background-color:black;
+    margin-right: 500px;
+    margin-left: 500px;
+
+    
+}
+li{
+    color: white;
+    background-color: black;
+    margin-right: 500px;
+    margin-left: 0px;
+
+}
+a:link{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover{
+    color: grey;
+    background-color: transparent;
+    text-decoration:unset;
+}
+footer{
+    
+    background-color: black;
+    color: white;
+    margin-right: 500px;
+    margin-left: 500px;
+    margin-top: 15px;
+}
+form{
+    margin-left: 500px;
+    margin-right: 500px;
+    text-align: left;
+}
+p{
+    text-align: justify;
+}
+button.action{
+    background-image:url(../images/versturen.png);
+    background-size: cover;
+    background-position: center;
+    
+}

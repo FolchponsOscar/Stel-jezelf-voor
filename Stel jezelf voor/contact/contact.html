@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel= "stylesheet" type= "text/css" href= "../css/contact.css">
+</head>
+<body>
+    <ul>
+        <li><a href="../hobbys/bmx.html">Bmx</a></li>
+        <li><a href="../hobbys/gamen.html">Gamen</a></li>
+        <li><a href="../opleiding/graduaatProgrammeren.html">Opleiding</a></li>
+        <li><a href="../index.html">Menu</a></li>
+        <li><a href="../contact/contact.html">Contact</a></li>
+    </ul>
+    <h1>
+        Contact
+    </h1>
+    <form method="post" action="">
+        <div>
+          Naam <input type="text" name="Naam" maxlength="50">
+        </div>
+        <div>
+          Voornaam <input type="text" name="Voornaam" maxlength="50" minlength="3">
+        </div>
+        <div>
+          E-mail <input type="email" name="email" maxlength="100">
+        </div>
+        
+        <div>Onderwerp
+            <input type="radio" name="Vraag" value="algemenevraag" id="Vraag1">
+            <label for="Vraag1">Algemene vraag</label>
+            <input type="radio" name="Vraag" value="hobbyvraag" id="Vraag2">
+            <label for="Vraag2">Vraag over hobby’s</label>
+            <input type="radio" name="Vraag" value="graduaatvraag" id="Vraag3">
+            <label for="Vraag3">Vraag over Graduaat Programmeren</label>
+            <input type="radio" name="Vraag" value="variavraag" id="Vraag4">
+            <label for="Vraag4">Varia</label>
+        </div>
+        <p>
+            Bericht <input style= "line-height: 20;"type="text" name= "Bericht" maxlength="2000" size="124" >
+        </p>
+        <div>
+            <input type="radio" name="Prioriteit" value="man" id="Optie1">
+            <label for="Optie1">Bij gelegenheid</label>
+            <input type="radio" name="Prioriteit" value="vrouw" id="Optie2">
+            <label for="Optie2">Binnen 2 dagen</label>
+            <input type="radio" name="Prioriteit" value="noch man noch vrouw" id="Optie3" checked>
+            <label for="Optie3">Dringend</label>
+          </div>
+          
+        
+        <div>
+            <button type="reset" value="formulier gegevens zijn gewissd">
+              Wissen
+            </button>
+        </div>
+        <div>
+            <button class= "action" type="submit" value="formulier gegevens zijn verzonden">
+              Verzenden
+            </button>
+        </div>
+
+        
+        
+      </form>
+    
+
+
+    <footer>
+        Copyright © Oscar Folchpons 
+    </footer>
+</body>
+</html>

@@ -59,4 +59,23 @@ footer{
     color: white;
     margin-right: 500px;
     margin-left: 500px;
+    margin-top: 15px;
+}
+table.lesrooster{
+    border: solid 1px black;
+    background-color: blanchedalmond;
+    width: 47.5%;
+    margin-left: 500px;
+    margin-right: 500px;
+    text-align: center;
+
+}
+table.lesrooster>caption{
+    text-align:center;
+    font-style:oblique;
+    font-size: 30px;
+    
+}
+table thead{
+    background-color: darkgray;
 }
